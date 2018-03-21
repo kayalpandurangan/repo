@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\681047\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+725520044.index
+2651742271.index
+901729943.index
+3922444618.index
+3258107958.index
+1685939259.index
+1551487458.index
+4211089214.index

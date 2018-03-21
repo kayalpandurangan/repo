@@ -1,0 +1,30 @@
+package datetime;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+import java.time.Month;
+
+
+public class date {
+	public static void main(String args[]){
+	      date d = new date();
+	      d.testLocalDateTime();
+	}
+	      public void testLocalDateTime(){
+	      LocalDate date1 = LocalDate.of(2014, Month.FEBRUARY, 10);
+	      System.out.println("date2: " + date1);
+	      LocalDate date2 = LocalDate.ofYearDay(2017,65);
+	      System.out.println(date2);
+	      LocalTime time = LocalTime.ofSecondOfDay(12345);
+	      System.out.println(time);
+	      LocalDateTime  date3 = LocalDateTime.of(2014, Month.FEBRUARY, 20,12,00);
+          System.out.println(date3);
+          LocalDate date4 = LocalDate.now();
+            LocalDate date5 = LocalDate.parse("2017-02-05");
+            System.out.println(date5.isBefore(date4));  
+    }
+	      
+	      }
+			
+	
+

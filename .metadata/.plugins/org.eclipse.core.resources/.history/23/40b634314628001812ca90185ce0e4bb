@@ -1,0 +1,23 @@
+package com.springmvc.firstcontroller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping("/home")
+
+public class firstspringmvccontroller {
+@RequestMapping("/hello")
+public String sayhello()
+{
+	return "hello";
+}
+@RequestMapping("/message")
+public String sendMessage(ModelAndView m)
+{
+	m.addObject("mymessage", "hello spring");
+	return "kitchen";
+}
+}
