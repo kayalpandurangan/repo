@@ -7,7 +7,7 @@ package springmvchibernate1;
 	private String name;  
 	private float salary;  
 	private String designation;  
-	  
+	  private int age;
 	public Emp() {}  
 	  
 	public Emp(int id, String name, float salary, String designation) {  
